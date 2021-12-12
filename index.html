@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Kelsey's Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="htmlc.html">HTML Cheat Sheet</a></li>
+      <li><a href="css.html">CSS Cheat Sheet</a></li>
+    </ul>
+  </div>
+  <div>
+    <img src="kelseyhtml.jpg" alt="Picture of kelsey">
+  </div>
+  <div class="intro">
+    <h1>Welcome to my Homepage!</h1>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h3>My name is Kelsey Sikorksi and this is for my Web Fundamental Class.</h3>
+  </div>
+  <div class="resume">
+    <br><br><br><br><br><br><br>
+    <h3><strong>Resume</strong></h3>
+    <table>
+      <tr>
+        <td>Present</td>
+        <td>Student at Bow Valley College</td>
+      </tr>
+      <tr>
+        <td>2018-2019</td>
+        <td>Cashier at JSYK</td>
+      </tr>
+      <tr>
+        <td>2017-2018</td>
+        <td>Assistant Manager at David's Tea</td>
+      </tr>
+    </table>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div id="Feedback">
+    <table>
+      <h3>Leave Your Email down here</h3>
+      <form name:"myForm" action="index.html" onsubmit="forms()" method="post">
+        <label for="lname"> Enter your Name:</label>
+       <input type="text" id="lname" name="lname">
+        <br>
+       <label for="mail">Enter your Email:</label>
+        <input type="email" id="mail" name="mail">
+        <input id="but"  type="submit" onsumbit="hello()" value="SUBMIT">
+      </form>
+
+    </table>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
